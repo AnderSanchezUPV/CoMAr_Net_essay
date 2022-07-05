@@ -1,0 +1,3 @@
+%%          Create custom COnvolution LAyer
+singleConvLayer = functionLayer(@myDLConv,Description="Custom Convolution",...
+                                InputNames={'Imagen','Patron'});
